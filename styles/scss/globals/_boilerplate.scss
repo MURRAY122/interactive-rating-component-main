@@ -1,0 +1,33 @@
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 100vh;
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: var(--font-md);
+    background: var(--very-dark-blue-hsl);
+    color: var(--light-grey-hsl);
+    margin: 0 1rem;
+  }
+
+.hide{
+  display: none;
+}
+
+footer{
+    .attribution { font-size: 11px; text-align: center; color: var(--white); }
+    .attribution a { color: hsl(227, 45%, 75%); }
+}
