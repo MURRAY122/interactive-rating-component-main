@@ -16,13 +16,13 @@
         <div class="section__content__title">How did we do?</div>
         <div class="section__content__desc">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</div>
         <div class="section__content__ratings">
-          <button class="section__content__ratings__btn" onclick="giveRating(this.value)" value="1">1</button>
-          <button class="section__content__ratings__btn" onclick="giveRating(this.value)" value="2">2</button>
-          <button class="section__content__ratings__btn" onclick="giveRating(this.value)" value="3">3</button>
-          <button class="section__content__ratings__btn" onclick="giveRating(this.value)" value="4">4</button>
-          <button class="section__content__ratings__btn" onclick="giveRating(this.value)" value="5">5</button>
+          <button class="section__content__ratings__btn" onclick="setRating(this)" value="1">1</button>
+          <button class="section__content__ratings__btn" onclick="setRating(this)" value="2">2</button>
+          <button class="section__content__ratings__btn" onclick="setRating(this)" value="3">3</button>
+          <button class="section__content__ratings__btn" onclick="setRating(this)" value="4">4</button>
+          <button class="section__content__ratings__btn" onclick="setRating(this)" value="5">5</button>
         </div>
-        <button class="section__content__submit">SUBMIT</button>
+        <button class="section__content__submit" onclick="submitRating()">SUBMIT</button>
       </div>
       <div id="thanksContent" class="section__content-thanks hide">
         <div class="section__content__thanks-img"></div>

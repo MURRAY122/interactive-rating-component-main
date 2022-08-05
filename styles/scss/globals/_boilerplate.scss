@@ -27,6 +27,11 @@
   display: none;
 }
 
+.rating-active{
+  background-color: var(--orange);
+  color: var(--white);
+}
+
 footer{
     .attribution { font-size: 11px; text-align: center; color: var(--white); }
     .attribution a { color: hsl(227, 45%, 75%); }
