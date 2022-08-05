@@ -30,6 +30,7 @@
   }
 }
 .section__content__title {
+  margin: 0;
   color: var(--white);
   font-size: var(--font-lg);
   font-weight: 700;
